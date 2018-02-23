@@ -17,5 +17,6 @@ app.use(EXPRESS.query());
 app.use('/',WECHAT(config,(req,res,next)=>{
     let message = req.weixin;
     console.log(message);
+    res.reply('ÊÕµ½')
 }));
 app.listen(3000);
