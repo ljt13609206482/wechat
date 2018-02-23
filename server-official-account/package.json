@@ -1,16 +1,16 @@
 {
-  "name": "wechat",
+  "name": "server-official-account",
   "version": "1.0.0",
-  "description": "wechat server",
-  "main": "index.js",
+  "description": "wechat",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "lijiantao",
-  "license": "ISC",
   "keywords": [
     "wechat"
   ],
+  "author": "lijiantao",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
     "mysql": "^2.15.0",
