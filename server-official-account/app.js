@@ -28,7 +28,7 @@ app.use('/',WECHAT(config,(req,res,next)=>{
     let sql=`SELECT * FROM db.chat WHERE question LIKE ?`;
     pool.query(sql,['%'+content+'%'],(err,results)=>{
         if(results.length==1){
-            res.reply(results[0]);
+            res.reply(results[0].answer);
         }else{
             res.reply('你说什么？我听不懂！')
         }
