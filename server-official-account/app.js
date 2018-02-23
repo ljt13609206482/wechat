@@ -3,8 +3,8 @@
  */
 //使用express搭建微信服务器
 const EXPRESS = require('express');
-const WECHAT =require('wechat');
-const MYSQL=require('mysql');
+const WECHAT = require('wechat');
+const MYSQL = require('mysql');
 
 let  pool=MYSQL.createPool({
     user:'root'
