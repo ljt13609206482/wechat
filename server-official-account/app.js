@@ -8,7 +8,8 @@ const WECHAT =require('wechat');
 let config={
   token:'weixin',
     appid:'wx519e354b8c69057d',
-    encodingAESKey:'dxcfZDO9qhWqUSi3B6MwDuHNzM6RTYaXtChkHBQwFCW'
+    encodingAESKey:'dxcfZDO9qhWqUSi3B6MwDuHNzM6RTYaXtChkHBQwFCW',
+    checkSignature:true
 };
 let app=new EXPRESS();
 
