@@ -12,6 +12,7 @@
     "wechat"
   ],
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "wechat": "^2.1.0"
   }
 }
